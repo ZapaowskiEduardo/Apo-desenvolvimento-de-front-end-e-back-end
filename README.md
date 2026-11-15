@@ -210,6 +210,5 @@ utilizando o Postman para validar o funcionamento da API e a comunicação entre
 
 ## Aluno: Eduardo Almeida de Melo Zapaowski 
 
-Projeto desenvolvido para fins acadêmicos na disciplina de Desenvolvimento Web.
+Projeto desenvolvido para fins acadêmicos na disciplina de Desenvolvimento de Front-end e back-end.
 
-Aluno: Eduardo Zapaowski
