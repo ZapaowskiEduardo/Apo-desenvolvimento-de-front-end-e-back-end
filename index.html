@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Clientes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <header>
+        <h1> Cadastro de Clientes</h1>
+        <p>Sistema de gerenciamento de clientes</p>
+    </header>
+
+    <div id="mensagem"></div>
+
+    <form id="clienteForm">
+
+        <input
+            type="text"
+            id="nome"
+            placeholder="Nome Completo"
+            required
+        >
+
+        <input
+            type="email"
+            id="email"
+            placeholder="E-mail"
+            required
+        >
+
+        <input
+            type="text"
+            id="cpf"
+            placeholder="CPF"
+            maxlength="14"
+            required
+        >
+
+        <input
+            type="text"
+            id="telefone"
+            placeholder="Telefone"
+            maxlength="15"
+            required
+        >
+
+        <button type="submit">
+             Cadastrar Cliente
+        </button>
+
+    </form>
+
+    <div class="topo-lista">
+
+        <h2>Clientes Cadastrados</h2>
+
+        <div class="acoes">
+
+            <input
+                type="text"
+                id="pesquisa"
+                placeholder=" Pesquisar cliente..."
+            >
+
+            <span id="contador">
+                0 cliente(s)
+            </span>
+
+        </div>
+
+    </div>
+
+    <div id="listaClientes"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
